@@ -1,0 +1,12 @@
+-var menu = {'Главная': 'main.html', 'Применение Лаеннек': 'inside-page.html'};
+
+nav.navbar.navbar-default
+ .container-fluid
+   ul.nav.navbar-nav
+      each val, key in menu
+        if selected === key
+          li.active
+            a(href=val, title=key)= key
+        else
+          li
+            a(href=val, title=key)= key

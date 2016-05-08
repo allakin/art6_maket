@@ -1,0 +1,13 @@
+extends ../_layout.jade
+
+block main-menu
+  .container
+    .row
+      .col-lg-6.col-lg-offset-3
+        h3.text-center.mb20 Сайт Кадастр и недвижимость
+        div.list-group
+          a(href="main.html").list-group-item Главная
+          a(href="inside-page.html").list-group-item Категория услуг
+          a(href="usluga.html").list-group-item Расторжение брака
+          a(href="catalog.html").list-group-item Каталог
+          include ../_contacts.jade

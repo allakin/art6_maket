@@ -1,0 +1,12 @@
+extends ../_layout.jade
+
+block main-menu
+  .container
+    .row
+      .col-lg-6.col-lg-offset-3
+        h3.text-center.mb20 Сайт Принципал 
+        div.list-group
+          a(href="main2.html").list-group-item Главная
+          a(href="adresa.html").list-group-item Гостинцы
+          a(href="gostinica.html").list-group-item Номера и цены
+          include ../_contacts.jade

@@ -1,0 +1,13 @@
+extends ../_layout.jade
+
+block main-menu
+  .container
+    .row
+      .col-lg-6.col-lg-offset-3
+        h3.text-center.mb20 Сайт Еврошторы
+        div.list-group
+          a(href="main.html").list-group-item Главная
+          a(href="shtori.html").list-group-item Рулонные шторы
+          a(href="card.html").list-group-item Описание товара
+          a(href="prototype.html").list-group-item Прототип
+          include ../_contacts.jade
