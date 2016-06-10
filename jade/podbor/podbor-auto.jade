@@ -1,0 +1,14 @@
+extends ../_layout.jade
+
+block link
+  -var selected = 'Подбор по маркам';
+
+- block title
+  title Подбор авто
+
+block nav
+  include ./_nav.jade
+
+block preview
+  .center-image
+    img(src="img/podbor-auto.jpg")
